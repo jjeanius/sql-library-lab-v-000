@@ -1,5 +1,5 @@
 UPDATE characters
-SET LAST species = "Martian"
+SET species = "Martian"
 WHERE species = "cylon";
 
 --# UPDATE table_name
