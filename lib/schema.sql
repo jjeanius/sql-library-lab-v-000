@@ -8,4 +8,4 @@ CREATE TABLE books (id INTEGER PRIMARY KEY, title TEXT, year INTEGER, series_id 
 
 CREATE TABLE characters (id INTEGER PRIMARY KEY, name TEXT, motto TEXT, species TEXT, author_id INTEGER, series_id INTEGER);
 
-CREATE TABLE character_books (id INTEGER Primary Key, book_id INTEGER, character_id INTEGER);"
+CREATE TABLE character_books (id INTEGER Primary Key, book_id INTEGER, character_id INTEGER);
