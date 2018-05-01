@@ -30,5 +30,6 @@ def select_series_title_with_most_human_characters
 end
 
 def select_character_names_and_number_of_books_they_are_in
-#  "SELECT character_name, COUNT book FROM books;"
+  "SELECT character.name, COUNT(book.title) FROM books;"
 end
+--#characters (id INTEGER PRIMARY KEY, name TEXT, motto TEXT, species TEXT, author_id INTEGER, series_id INTEGER);
